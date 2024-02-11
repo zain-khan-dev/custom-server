@@ -98,7 +98,7 @@ struct ServerController {
 
     void handle_get_method(char *path, int client_socket){
         char final_path[1024];
-        printf("Path is %s\n", path);
+        printf("Updated Path is %s\n", path);
         if(path[strlen(path) - 1] == '/'){
             strcpy(final_path, "public");
             strcat(final_path, path);
