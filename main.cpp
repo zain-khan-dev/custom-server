@@ -15,9 +15,6 @@
 
 
 
-
-
-
 int main(){
     // Get the addrinfo of the current host
     // make a socket over the host ip address 
